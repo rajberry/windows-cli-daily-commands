@@ -1,0 +1,142 @@
+# Windows CLI: 100 Daily Life Used Commands (With Explanation)
+
+This document is written in **English** and can be used directly in your **GitHub profile README.md**.
+It focuses on **Windows Command Line (CMD + PowerShell)** commands that are commonly used in daily life.
+
+---
+
+## 📁 File & Folder Management (1–20)
+
+1. `dir` – List files and folders in the current directory
+2. `dir /a` – Show hidden files
+3. `cd foldername` – Enter a folder
+4. `cd ..` – Go back one directory
+5. `cd \` – Go to root directory
+6. `mkdir foldername` – Create a new folder
+7. `rmdir foldername` – Delete an empty folder
+8. `rmdir /s foldername` – Delete folder with files
+9. `del filename.txt` – Delete a file
+10. `copy file1.txt file2.txt` – Copy file
+11. `xcopy source destination /E` – Copy folders with files
+12. `move file.txt D:\Folder` – Move file
+13. `rename old.txt new.txt` – Rename file
+14. `tree` – Show folder structure
+15. `attrib` – View file attributes
+16. `attrib +h file.txt` – Hide a file
+17. `attrib -h file.txt` – Unhide a file
+18. `type file.txt` – Show file content
+19. `more file.txt` – Read file page by page
+20. `cls` – Clear screen
+
+---
+
+## 🖥 System Information (21–35)
+
+21. `systeminfo` – Show system details
+22. `hostname` – Show computer name
+23. `ver` – Show Windows version
+24. `whoami` – Show current user
+25. `tasklist` – Show running processes
+26. `taskkill /IM notepad.exe` – Kill a process
+27. `wmic cpu get name` – CPU information
+28. `wmic memorychip get capacity` – RAM details
+29. `wmic diskdrive get size` – Disk size
+30. `powercfg /batteryreport` – Battery report
+31. `time` – Show current time
+32. `date` – Show current date
+33. `set` – Show environment variables
+34. `echo %USERNAME%` – Show username
+35. `exit` – Close CMD
+
+---
+
+## 🌐 Networking Commands (36–50)
+
+36. `ipconfig` – Show IP address
+37. `ipconfig /all` – Detailed network info
+38. `ping google.com` – Check internet connection
+39. `tracert google.com` – Trace route
+40. `netstat` – Network connections
+41. `netstat -an` – All active connections
+42. `arp -a` – Show ARP table
+43. `nslookup google.com` – DNS lookup
+44. `getmac` – Show MAC address
+45. `netsh wlan show profiles` – Saved WiFi list
+46. `netsh wlan show profile name="WiFi" key=clear` – WiFi password
+47. `route print` – Routing table
+48. `ftp` – File transfer protocol
+49. `telnet` – Remote connection
+50. `curl https://example.com` – Fetch web data
+
+---
+
+## ⚙ PowerShell Daily Commands (51–70)
+
+51. `Get-Help` – PowerShell help
+52. `Get-Command` – List commands
+53. `Get-Process` – Running processes
+54. `Stop-Process -Name notepad` – Stop process
+55. `Get-Service` – List services
+56. `Start-Service servicename` – Start service
+57. `Stop-Service servicename` – Stop service
+58. `Get-ChildItem` – List directory
+59. `Set-Location path` – Change directory
+60. `New-Item file.txt` – Create file
+61. `Remove-Item file.txt` – Delete file
+62. `Copy-Item a.txt b.txt` – Copy file
+63. `Move-Item a.txt D:\Folder` – Move file
+64. `Rename-Item old.txt new.txt` – Rename file
+65. `Get-Content file.txt` – Read file
+66. `Add-Content file.txt "Hello"` – Add text
+67. `Clear-Host` – Clear screen
+68. `Get-Date` – Show date
+69. `Get-History` – Command history
+70. `Invoke-WebRequest url` – Download data
+
+---
+
+## 🔐 User & Security (71–85)
+
+71. `net user` – List users
+72. `net user username` – User info
+73. `net user username password /add` – Create user
+74. `net localgroup` – List groups
+75. `net localgroup administrators` – Admin users
+76. `runas /user:admin cmd` – Run as admin
+77. `cipher /e folder` – Encrypt folder
+78. `cipher /d folder` – Decrypt folder
+79. `sfc /scannow` – System file check
+80. `chkdsk` – Disk check
+81. `control` – Open control panel
+82. `gpupdate /force` – Update group policy
+83. `shutdown /s /t 0` – Shutdown PC
+84. `shutdown /r /t 0` – Restart PC
+85. `logoff` – Log out user
+
+---
+
+## 🛠 Developer & Utility Commands (86–100)
+
+86. `code .` – Open VS Code
+87. `git --version` – Check Git version
+88. `git status` – Git status
+89. `git clone repo_url` – Clone repository
+90. `git add .` – Stage changes
+91. `git commit -m "message"` – Commit
+92. `git push` – Push to GitHub
+93. `python --version` – Python version
+94. `node -v` – Node.js version
+95. `npm install` – Install packages
+96. `pip install package` – Install Python package
+97. `where python` – Python path
+98. `where git` – Git path
+99. `history` – Command history
+100. `doskey /history` – CMD command history
+
+---
+# 👋 Hi, I'm RajBerry
+
+💻 Learning Windows CLI & PowerShell  
+📘 Sharing 100 daily-life used commands  
+🚀 Using GitHub to track my learning journey
+

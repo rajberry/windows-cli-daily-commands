@@ -1,6 +1,3 @@
-# windows-cli-daily-commands
-Daily Windows CMD and PowerShell commands with English explanations
-
 # 💻 Windows CLI – 100 Daily Life Commands
 
 > A curated collection of **100 essential Windows command-line commands (CMD & PowerShell)** for daily life, system management, networking, and development.
